@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between; /* Isso faz com que os elementos se estiquem para ocupar o espaço disponível */
+    align-items: center; /* Alinha verticalmente os elementos ao centro */
+    background-color: #9634c4;
+    background: linear-gradient(to bottom, #741a9e,#2c56ff);/
+}
+
+.cabecalho__logo {
+    padding: 1.5em 0;
+    width: 10.5em;
+    margin-left: 40px;
+}
+
+.cabecalho__menu > a {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1.86em 1.42em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.banner {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: url(imagem/pexels-introspectivedsgn-4062323.jpg);
+    background-size: cover; /* Cobrir todo o espaço da div com a imagem */
+    width: 100%; /* A largura do banner ocupa 100% da largura da tela */
+    height: 80vh; /* A altura é ajustada automaticamente com base no conteúdo  */
+    
+}
+
+.banner-texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #fff; /* Cor do texto */
+    text-transform: uppercase;
+    text-align: center; /* Centralizar o texto dentro da div .banner-tex */
+    background-color: rgba(0, 0, 0, 0.484); /* Adicionar um fundo semi-transparente para melhor legibilidade */
+    padding: 20px; /* Adicionar um espaço interno para o texto */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition:all 0.5s ease;/
+    
+}
+
+.banner-texto:hover{
+  transform: translateY(-10px);
+  box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.botao-saiba-mais {
+  transition:all 0.5s ease;
+  background-color: #741a9e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  margin-top: 5px;
+  align-self: center;
+}
+
+.botao-saiba-mais:hover {
+  transform: translateY(-2px);
+  background-color: #6f1897;
+  box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.3);
+}
+.container-pai {
+  display: flex; /* Transforma em FLEXBOX */
+  padding: 25px; /* Adiciona a margem dentro */
+  justify-content:space-evenly; /* Espaço entre os elementos */
+  background-color: #000000; /* Cor do fundo */
+  flex-wrap: wrap;
+    
+}
+.container-filho {
+  transition:all 0.5s ease;
+  background-color: #741a9e; /* cor do fundo */
+  width: 200px; /* tamanho do container */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo da fonte */
+  font-weight: bold; /* peso da fonte (negrito) */
+  color: #fff; /* cor da fonte */
+  border-radius: 10px; /* Cantos arredondados */
+  padding: 20px; /* Adiciona a margem dentro */
+  text-align: center; /* centraliza o texto */
+}
+
+.container-filho:hover {
+  transform: translateY(-5px);
+  background-color: #a649d1;
+  box-shadow:0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.imagem_instrumentos {
+  width: 50%; /* tamanho das imagens */
+  border-radius: 50%; /* Cantos arredondados para a imagem */
+}
+
+h2 {
+    
+  font-size: 18px; /* tamanho da fonte */
+}
+  
+p {
+  font-weight: lighter; /* peso da fonte (mais fina) */
+  text-align: center; /* alinhamento do texto (centralizado) */
+  margin-top: 5px; /* margem em cima  */
+  font-size: 12px; /* tamanho da fonte */
+}
+.banner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imagem/pexels-gvbrielh-3593922.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  color: #000000;
+  height: 500px;
+}
+
+.form-conteiner {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  margin: 10px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #741a9e;
+  color: #fff;
+  border: nome;
+  cursor: pointer;
+}
+
+.button-color {
+  background-color: #400b58;
+}

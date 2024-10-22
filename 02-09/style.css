@@ -1,0 +1,9 @@
+h1 {
+    color: rgb(7, 5, 126); /* tudo que tiver a etiqueta (tag) h1 vai ter esta cor */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* troca a fonte para que eu escolhi */
+    
+}
+
+button {
+    background-color: rgb(2, 2, 129); 
+}

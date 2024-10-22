@@ -1,0 +1,18 @@
+body { 
+    font: normal 1em;
+}
+h1 {
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+}
+#titulo-principal {
+    background-color: rgb(20, 3, 173);
+    color: rgb(244, 245, 250);
+    text-align: center;
+}
+.topico {
+    text-align: right;
+}
+.texto {
+    text-align: justify;
+}

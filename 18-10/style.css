@@ -1,0 +1,17 @@
+body{
+    
+    background-color: rgb(253, 160, 222);
+    
+}
+h1 {
+    color:black;
+}
+button {
+    padding: 10px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color:rgb(252, 105, 220);
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+}
